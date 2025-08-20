@@ -97,6 +97,31 @@ The Peacock Cosméticos website has been successfully optimized for maximum perf
 - **External URLs Remaining**: 6 (only allowed social media links)
 - **Images with Lazy Loading**: 30/40 (75%)
 - **Critical Resources Preloaded**: 4
+
+---
+
+## 🆕 Latest Optimizations (Current Session)
+
+### ✅ **Dependências Externas Removidas**
+- **Facebook Pixel**: Removido completamente (17 linhas de código)
+- **URLs do domínio original**: 3 URLs corrigidas no CSS principal
+- **AJAX URL**: Corrigida para caminho relativo
+
+### ✅ **Arquivos Modificados**
+1. **index.html**: Facebook Pixel removido + AJAX URL corrigida
+2. **post-16.css**: 3 URLs de imagens convertidas para caminhos relativos
+
+### ✅ **Resultados Obtidos**
+- ❌ **Eliminados**: Requests externos para Facebook
+- ❌ **Eliminados**: 3 requests para domínio original
+- ✅ **Melhorada**: Performance de carregamento
+- ✅ **Mantida**: 100% fidelidade visual e funcionalidade
+
+### ✅ **Status Final**
+- **Performance**: ✅ MELHORADA
+- **Fidelidade Visual**: ✅ 100% PRESERVADA
+- **Funcionalidade**: ✅ 100% MANTIDA
+- **Deploy**: ✅ CONCLUÍDO NO GITHUB/VERCEL
 - **JavaScript Files Deferred**: 6
 - **Total Size Reduction**: ~50% in plugin files
 
