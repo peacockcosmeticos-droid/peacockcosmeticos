@@ -1,0 +1,19 @@
+{
+  "minification_summary": {
+    "css_files": 61,
+    "js_files": 28,
+    "inline_styles": 9,
+    "inline_scripts": 19,
+    "html_size_kb": 179.8,
+    "estimated_css_savings_kb": 56,
+    "estimated_js_savings_kb": 50,
+    "optimizations_applied": [
+      "Inline CSS minification",
+      "Unused CSS removal",
+      "CSS file optimization",
+      "Unused JavaScript removal",
+      "Inline JavaScript minification",
+      "Small CSS file combination"
+    ]
+  }
+}

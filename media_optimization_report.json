@@ -1,0 +1,47 @@
+{
+  "media_optimization_summary": {
+    "total_images": 32,
+    "lazy_images": 36,
+    "responsive_images": 23,
+    "webp_images": 8,
+    "optimized_videos": 3,
+    "large_images_count": 13,
+    "total_image_size_mb": 11.2,
+    "estimated_savings_kb": 2127,
+    "large_images": [
+      {
+        "path": "wp-content/uploads\\2024\\10\\banner01.jpg",
+        "size_kb": 603.0,
+        "size_mb": 0.59
+      },
+      {
+        "path": "wp-content/uploads\\2024\\10\\banner03.jpg",
+        "size_kb": 539.6,
+        "size_mb": 0.53
+      },
+      {
+        "path": "wp-content/uploads\\2024\\10\\bg01.jpg",
+        "size_kb": 1350.2,
+        "size_mb": 1.32
+      },
+      {
+        "path": "wp-content/uploads\\2025\\08\\1.png",
+        "size_kb": 816.9,
+        "size_mb": 0.8
+      },
+      {
+        "path": "wp-content/uploads\\2025\\08\\10.png",
+        "size_kb": 655.4,
+        "size_mb": 0.64
+      }
+    ],
+    "optimizations_applied": [
+      "Image format optimization (WebP support)",
+      "Responsive images with srcset",
+      "Video loading optimization",
+      "Image optimization CSS",
+      "Lazy loading implementation",
+      "Performance meta tags"
+    ]
+  }
+}

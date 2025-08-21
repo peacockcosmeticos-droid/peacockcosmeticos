@@ -1,0 +1,52 @@
+{
+  "payload_reduction_summary": {
+    "total_size_mb": 62.2,
+    "html_size_kb": 163.6,
+    "large_files_count": 16,
+    "largest_files": [
+      {
+        "path": ".\\wp-content\\uploads\\2025\\05\\Peecock.mp4",
+        "size_kb": 40251.3,
+        "size_mb": 39.31,
+        "type": "mp4"
+      },
+      {
+        "path": ".\\wp-content\\uploads\\2025\\05\\UNBOXING-LETICIA.mp4",
+        "size_kb": 5197.1,
+        "size_mb": 5.08,
+        "type": "mp4"
+      },
+      {
+        "path": ".\\wp-content\\uploads\\2025\\05\\CLARISSA.mp4",
+        "size_kb": 4943.0,
+        "size_mb": 4.83,
+        "type": "mp4"
+      },
+      {
+        "path": ".\\wp-content\\uploads\\2024\\10\\bg01.jpg",
+        "size_kb": 1350.2,
+        "size_mb": 1.32,
+        "type": "jpg"
+      },
+      {
+        "path": ".\\wp-content\\uploads\\2025\\08\\8.png",
+        "size_kb": 926.4,
+        "size_mb": 0.9,
+        "type": "png"
+      }
+    ],
+    "lazy_resources": 40,
+    "async_css_files": 2,
+    "optimized_videos": 3,
+    "estimated_savings_kb": 14575.1,
+    "original_payload_kb": 15473,
+    "optimizations_applied": [
+      "Video delivery optimization",
+      "Progressive loading implementation",
+      "CSS delivery optimization",
+      "Unused resource removal",
+      "Inline content compression",
+      "Resource bundling"
+    ]
+  }
+}
