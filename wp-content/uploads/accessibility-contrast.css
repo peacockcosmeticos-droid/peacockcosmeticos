@@ -1,0 +1,64 @@
+
+/* Accessibility - Color Contrast Improvements */
+.elementor-button {
+    background-color: #c44569 !important;
+    color: #ffffff !important;
+    border: 2px solid #c44569 !important;
+    font-weight: 600 !important;
+}
+
+.elementor-button:hover {
+    background-color: #a73c5a !important;
+    border-color: #a73c5a !important;
+    color: #ffffff !important;
+}
+
+.ekit-heading--title {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+}
+
+/* Melhorar contraste em textos sobre backgrounds */
+.elementor-testimonial .elementor-testimonial__text {
+    color: #333333 !important;
+    background-color: rgba(255,255,255,0.95) !important;
+    padding: 15px !important;
+    border-radius: 8px !important;
+}
+
+/* Accordion text contrast */
+.ekit-accordion--content p {
+    color: #333333 !important;
+    line-height: 1.6 !important;
+}
+
+/* Link contrast */
+a {
+    color: #c44569 !important;
+}
+
+a:hover {
+    color: #a73c5a !important;
+}
+
+/* Focus states for accessibility */
+.elementor-button:focus,
+button:focus,
+a:focus {
+    outline: 3px solid #ffcc00 !important;
+    outline-offset: 2px !important;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .elementor-button {
+        background-color: #000000 !important;
+        color: #ffffff !important;
+        border: 3px solid #ffffff !important;
+    }
+    
+    .ekit-heading--title {
+        color: #ffffff !important;
+        text-shadow: 3px 3px 6px rgba(0,0,0,1) !important;
+    }
+}

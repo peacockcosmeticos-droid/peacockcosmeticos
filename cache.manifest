@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# Version 1.0 - Peacock Cosméticos
+
+CACHE:
+./
+./wp-content/plugins/elementor/assets/css/frontend.min.css
+./wp-content/uploads/elementor/css/post-16.css
+./wp-content/uploads/2024/10/banner01.jpg
+./wp-content/uploads/2024/10/banner03.jpg
+./wp-content/uploads/2024/10/peecock-08.png
+./wp-content/uploads/2024/10/selo-aprovado-anvisa-p_optimized.webp
+./wp-includes/js/jquery/jquery.min.js
+
+NETWORK:
+*
+
+FALLBACK:
+/ ./offline.html

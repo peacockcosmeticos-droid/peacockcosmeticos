@@ -1,0 +1,17 @@
+{
+  "lazy_loading_summary": {
+    "lazy_images": 5,
+    "total_images": 32,
+    "lazy_percentage": 15.6,
+    "lazy_videos": 0,
+    "background_images": 0,
+    "estimated_savings_kb": 325,
+    "optimizations_applied": [
+      "Native lazy loading for images",
+      "Video preload optimization",
+      "Intersection Observer implementation",
+      "Background image lazy loading",
+      "Loading placeholders with CSS"
+    ]
+  }
+}
