@@ -1,0 +1,58 @@
+# Robots.txt for Peecock Cosméticos
+# Optimized for SEO and search engine crawling
+
+User-agent: *
+Allow: /
+
+# Allow access to CSS and JS files for proper rendering
+Allow: /assets/modules/*/assets/css/
+Allow: /assets/modules/*/assets/js/
+Allow: /assets/templates/*/assets/css/
+Allow: /assets/templates/*/assets/js/
+Allow: /core/js/
+
+# Allow access to media files
+Allow: /assets/media/
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.php$
+Disallow: /*?*
+
+# Allow specific important files
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://peacockcosmeticos.com.br/sitemap.xml
+
+# Additional directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# Block unwanted bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

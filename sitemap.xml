@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://peacockcosmeticos.com.br/</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+
+    <!-- Product Images -->
+    <image:image>
+      <image:loc>https://peacockcosmeticos.com.br/assets/media/2024/10/selo-aprovado-anvisa-p_optimized.webp</image:loc>
+      <image:title>Selo de aprovação ANVISA - Produto seguro e regulamentado</image:title>
+      <image:caption>Peecock sérum para cílios aprovado pela ANVISA</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://peacockcosmeticos.com.br/assets/media/2024/10/dermatologicamente.png</image:loc>
+      <image:title>Dermatologicamente testado - Seguro para uso</image:title>
+      <image:caption>Produto dermatologicamente testado</image:caption>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://peacockcosmeticos.com.br/assets/media/2024/10/peecock-08.png</image:loc>
+      <image:title>Logo Peecock - Sérum para crescimento de cílios</image:title>
+      <image:caption>Logo oficial da marca Peecock</image:caption>
+    </image:image>
+
+    <!-- Product Videos -->
+    <video:video>
+      <video:thumbnail_loc>https://peacockcosmeticos.com.br/assets/media/2025/05/Peecock.mp4</video:thumbnail_loc>
+      <video:title>Vídeo demonstrativo Peecock - Sérum para cílios</video:title>
+      <video:description>Demonstração dos resultados do sérum Peecock para crescimento de cílios</video:description>
+      <video:content_loc>https://peacockcosmeticos.com.br/assets/media/2025/05/Peecock.mp4</video:content_loc>
+      <video:duration>60</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://peacockcosmeticos.com.br/privacy-policy/</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Product Categories -->
+  <url>
+    <loc>https://peacockcosmeticos.com.br/#resultados</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://peacockcosmeticos.com.br/#beneficios</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://peacockcosmeticos.com.br/#mododeusar</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://peacockcosmeticos.com.br/#faq</loc>
+    <lastmod>2025-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
