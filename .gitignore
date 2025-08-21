@@ -1,14 +1,15 @@
 # WordPress specific
 wp-config.php
-wp-content/uploads/
 wp-content/cache/
 wp-content/backup-db/
 wp-content/backups/
 wp-content/blogs.dir/
 wp-content/upgrade/
-wp-content/uploads/
 wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
+
+# Allow uploads directory for static site deployment
+# wp-content/uploads/ - COMMENTED OUT to allow static assets
 
 # Logs
 *.log
