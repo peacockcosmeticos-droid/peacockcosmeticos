@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "title": "Peecock - Sérum vegano para crescimento de cílios",
+    "description": "Transforme seus cílios em apenas 7 dias com o sérum Peecock. Vegano, seguro e eficaz. Frete grátis para compras acima de R$140!",
+    "keywords": "sérum para cílios, crescimento de cílios, cílios longos, cílios volumosos, cosmético vegano, beleza natural, cuidados com cílios, Peecock",
+    "author": "Peecock Cosméticos",
+    "ogTitle": "Peecock - Sérum vegano para crescimento de cílios",
+    "ogDescription": "Transforme seus cílios em apenas 7 dias com o sérum Peecock. Vegano, seguro e eficaz. Frete grátis para compras acima de R$140!",
+    "twitterSite": "@peecockbr",
+    "twitterCreator": "@peecockbr"
+  },
+  "company": {
+    "name": "Peecock Cosméticos",
+    "cnpj": "49.861.363/0001-00",
+    "address": "Rua Benjamin Constant, 2154 - Centro - Piracicaba - SP",
+    "email": "sac@peacockcosmeticos.com.br",
+    "phone": "+55-19-99999-9999"
+  },
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/profile.php?id=61555633298474",
+    "instagram": "https://www.instagram.com/peecockbr/",
+    "tiktok": "https://www.tiktok.com/@peecockcosmeticos?_t=ZM-8vMT8WL9Q9P&_r=1"
+  },
+  "buyButtons": [
+    {
+      "id": "header-buy",
+      "text": "Comprar agora",
+      "url": "#",
+      "location": "header"
+    },
+    {
+      "id": "main-cta-1",
+      "text": "Clique e compre já!",
+      "url": "#",
+      "location": "hero-section"
+    },
+    {
+      "id": "transform-cta",
+      "text": "Transforme seus cílios com Peecock!",
+      "url": "#",
+      "location": "results-section"
+    },
+    {
+      "id": "main-cta-2",
+      "text": "Clique e compre já!",
+      "url": "#",
+      "location": "benefits-section"
+    },
+    {
+      "id": "shipping-cta",
+      "text": "Compre a partir de duas unidades e ganhe <b>frete grátis!</b>",
+      "url": "#",
+      "location": "shipping-section"
+    }
+  ],
+  "mainHeadings": {
+    "hero": "Peecock:<br>o segredo por trás de cílios mais saudáveis, longos e volumosos!",
+    "whyChoose": "Por que escolher o sérum<br>de crescimento para cílios <span>Peecock?</span>",
+    "targetAudience": "O Sérum Peecock <span>é para você que:</span>",
+    "howToUse": "<span>Como usar</span> o sérum de crescimento para cílios?"
+  },
+  "lastUpdated": "2025-08-21T16:44:55.208Z",
+  "version": "1.0.0"
+}

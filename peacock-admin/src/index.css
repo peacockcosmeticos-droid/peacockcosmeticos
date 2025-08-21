@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS for preserving original design elements */
+:root {
+  --peacock-primary: #ec4899;
+  --peacock-secondary: #0ea5e9;
+  --peacock-dark: #1a1a1a;
+  --peacock-light: #ffffff;
+}
+
+/* Base styles that match the original design */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Preserve original button styles for buy buttons */
+.peacock-button {
+  background: linear-gradient(45deg, var(--peacock-primary), var(--peacock-secondary));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.peacock-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(236, 72, 153, 0.3);
+}
+
+/* Preserve original heading styles */
+.peacock-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Preserve original text styles */
+.peacock-text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+}
+
+/* Admin panel specific styles */
+.admin-panel {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.admin-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Preserve Elementor-like classes for compatibility */
+.elementor-section {
+  position: relative;
+  width: 100%;
+}
+
+.elementor-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.elementor-column {
+  position: relative;
+  min-height: 1px;
+}
+
+.elementor-widget-wrap {
+  position: relative;
+}
+
+.elementor-element {
+  position: relative;
+}
+
+.elementor-button {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.elementor-button-wrapper {
+  display: inline-block;
+}
+
+.elementor-button-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.elementor-button-text {
+  font-weight: 600;
+}
+
+.elementor-heading-title {
+  margin: 0;
+  padding: 0;
+}
+
+/* Animation classes */
+.animated-slow {
+  animation-duration: 1.5s;
+}
+
+.elementor-invisible {
+  opacity: 0;
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+.fadeInUp {
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to { 
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive utilities */
+@media (max-width: 767px) {
+  .elementor-hidden-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .elementor-hidden-tablet {
+    display: none !important;
+  }
+}
